@@ -1,0 +1,39 @@
+.movie-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    text-align: center;
+    color:#fff;
+    background-color: black;
+}
+
+img{
+    width:12vw;
+    height:25vh;
+}
+.each-movie-container{
+    margin: 5%;
+    box-shadow: 5px 5px 5px 5px rgb(0,0,0);
+    padding-bottom: 3%;
+}
+.each-movie-button{
+    padding: 2%;
+}
+.movie-cat{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.movie-cat li{
+    background-color: blueviolet;
+    padding: 2%;
+    margin: 3%;
+    cursor: pointer;
+}
+
+.movie-cat ul{
+    display:flex;
+    list-style-type: none;
+
+    
+}
